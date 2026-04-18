@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.env
+.venv
+env/
+venv/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+*.log
+
+# Datasets (premногу големи / problematichni fajlovi)
+datasets/
+
+# C / C++ (MPI + OpenMP)
+*.o
+*.out
+*.exe
+*.a
+*.lib
+*.dll
+*.so.*
+*.dSYM/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Prezentacii
+*.pptx
+*.ppt
+*.pdf
+*.key
+
+# Data / results
+results/
+*.csv
+*.json
+!config.json
+data/raw/
+*.pkl
+*.npy
+*.npz
+
+# Misc
+*.bak
+*.tmp
+*.swp
+~$*
